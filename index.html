@@ -12,7 +12,6 @@
   <header>
     <nav>
       <img src="http://www.clubrobusta.ru/new/site/images/catalog/keepcup/logo.png">
-      <!--           <h1>Keep Cup</h1> -->
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About Us</a></li>
@@ -41,6 +40,24 @@
           <a href="">Media</a>
         </li>
       </ul>
+      <form>
+        <h1>Say Hello!</h1>
+        <div id="nameInput">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div id="email">
+          <label for="mail">Email:</label>
+          <input type="text" id="mail" name="user_email">
+        </div>
+        <div id="messages">
+          <label id="labelMsg" for="msg">Your message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">Submit <span class="fa fa-arrow-circle-right arrow"></span></button>
+        </div>
+      </form>
     </aside>
     <div class="mission">
       <h2>Our Mission</h2>

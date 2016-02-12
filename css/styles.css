@@ -96,20 +96,16 @@ main div p {
   position: relative;
   width: 100%;
   height: 250px;
-  padding-bottom: 20px;
 }
 
 .image img {
   position: absolute;
-  max-height: 250px;
   width: 50%;
   left: 25%;
 }
 
 .image span {
   position: absolute;
-  max-height: 200px;
-  width:50%;
   left: 28%;
   top: 20%;
   font-family: 'Amatic SC', cursive;
@@ -129,11 +125,64 @@ main div p {
   top: 60%;
 }
 
+form {
+  padding-top: 5px;
+  max-height: 500px;
+}
+
+form h1 {
+  font-family: 'Leckerli One', cursive;
+  color: #00B1B0;
+  text-align: center;
+  font-size: 2em;
+}
+
+form div {
+  font-size: 1.2em;
+  margin-right: 10%;
+}
+
+form div input,
+form div textarea {
+  float: right;
+  width: 60%;
+}
+
+form div textarea {
+  resize: none;
+  height: 100px;
+}
+
+form .button {
+    margin: 4% 0;
+}
+
+form div button {
+  font-size: 1.1em;
+  font-family: 'Leckerli One', cursive;
+  color: #00B1B0;
+  margin-left: 25%;
+
+  border: 1px solid #474A4C;
+  background-color: white;
+  border-radius: 30%;
+  padding: 5px 5px;
+}
+
 .gallery {
   margin-top: 2%;
+  overflow: auto;
+  width: 610px;
+  height: auto;
+  margin: 5% 30%;
 }
 
 .gallery img {
   width: 200px;
+  float: left;
+  padding: 3px;
+}
 
+footer {
+  text-align: center;
 }
