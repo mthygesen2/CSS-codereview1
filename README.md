@@ -6,7 +6,7 @@
 
 ## Description
 
-_It is a site for selling KeepCup._
+_A model site for KeepCup to practice floats, box-sizing, forms positioning in CSS. A review of week one at Epicodus Portland. _
 
 ## Setup/Installation Requirements
 
