@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  height: 500px;
+  background-image: url('http://getintomylife.com/wp-content/uploads/2015/03/keepcup_cork.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  overflow: auto;
+  padding: 1% 1%;
+}
+
+nav img {
+  float: left;
+  width: 100px;
+}
+
+nav ul {
+  padding-top: 2%;
+  padding-left: 3%;
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 3%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: #474A4C;
+  text-shadow: 2px 2px white;
+  font-family: 'Leckerli One', cursive;
+}
+
+main {
+  overflow: auto;
+}
+
+main div {
+  float: right;
+  width: 75%;
+  padding-top: 2%;
+}
+
+main aside {
+  float: left;
+  width: 20%;
+  padding-top: 3%;
+}
+
+main aside ul li {
+  list-style: none;
+  border-bottom: 1px solid grey;
+  padding: 2% 0;
+  font-size: 1.5em;
+}
+
+main aside ul li a {
+  text-decoration: none;
+  color: #7C8282;
+}
+
+main aside ul li:first-child a:first-child {
+  color: #00B1B0;
+}
+
+main aside ul li:first-child {
+  border-top: 1px solid grey;
+}
+
+main div h2 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 2em;
+  color: #00B1B0;
+}
+
+main div p {
+  font-size: 1.5em;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+}
+
+.image span {
+  position: absolute;
+  left: 350px;
+  top: 45px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.image h2 span {
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4em;
+  left: 380px;
+  top: 100px;
+}
+
+.image h2:last-child span {
+  left: 380px;
+  top: 150px;
+}
+
+
+/* .image span {
+  font-family: 'Pacifico', cursive;
+  z-index: 100;
+}
+ */
