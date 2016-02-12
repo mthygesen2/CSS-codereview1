@@ -164,15 +164,15 @@ form div textarea {
 }
 
 form div button {
-  font-size: 1.1em;
+  font-size: 1vw;
   font-family: 'Leckerli One', cursive;
   color: #00B1B0;
   margin-left: 25%;
-  margin-top: 2%;
+  margin-top: 5%;
   border: 1px solid #474A4C;
   background-color: white;
-  border-radius: 30%;
-  padding: 10px 10px;
+  border-radius: 5%;
+  padding: 8px 10px;
 }
 
 .gallery {
