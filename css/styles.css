@@ -30,6 +30,7 @@ nav ul {
   list-style: none;
   margin: 0;
   float: right;
+
 }
 
 nav ul li {
@@ -101,13 +102,15 @@ main div p {
 .image img {
   position: absolute;
   width: 50%;
-  left: 25%;
+  /*left: 25%;*/
+  margin: 0 30%;
+  border: 1px solid black;
 }
 
 .image span {
   position: absolute;
-  left: 28%;
-  top: 20%;
+  left: 32%;
+  top: 15%;
   font-family: 'Amatic SC', cursive;
   font-size: 4.3vw;
   font-weight: bold;
@@ -117,12 +120,12 @@ main div p {
   position: absolute;
   font-family: 'Pacifico', cursive;
   font-size: 2.5vw;
-  top: 45%;
+  top: 40%;
 }
 
 .image span:last-child {
   position: absolute;
-  top: 60%;
+  top: 52%;
 }
 
 form {
@@ -170,11 +173,12 @@ form div button {
 }
 
 .gallery {
-  margin-top: 2%;
+
   overflow: auto;
-  width: 610px;
+  width: 600px;
   height: auto;
   margin: 5% 30%;
+  /*margin-left: 31%;*/
 }
 
 .gallery img {
