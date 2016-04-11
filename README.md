@@ -1,16 +1,18 @@
-# _Code Review CSS Week 1_
+# _KeepCup_
 
-#### _A product site for Epicodus CSS code review. 2/12/16
+#### A product site for Epicodus CSS code review. 2/12/16
 
-#### By _Mao Thygesen _
+#### By Mao Thygesen 
 
 ## Description
 
-_A model site for KeepCup to practice floats, box-sizing, forms positioning in CSS. A review of week one at Epicodus Portland. _
+A model site for KeepCup to practice floats, box-sizing, forms positioning in CSS. This was made to show basic understanding of CSS. A review of week one at Epicodus Portland. 
 
 ## Setup/Installation Requirements
 
-* _Cloning github repo, and running in browser._
+* _Cloning github repo <https://github.com/mthygesen2/CSS-codereview1.git> 
+* _Run in browser of your choice._
+* Or see it live [here] (http://mthygesen2.github.io/CSS-codereview1)
 
 
 ## Known Bugs
@@ -23,7 +25,7 @@ _Feel free to contact with questions on Github._
 
 ## Technologies Used
 
-_CSS styling, CodePen_
+_CSS, CodePen_
 
 ### License
 
